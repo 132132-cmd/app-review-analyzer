@@ -1,0 +1,1142 @@
+{
+  "app_info": {
+    "name": "导入数据集",
+    "app_id": "imported"
+  },
+  "cleaned_reviews": [
+    {
+      "review_id": "sample_001",
+      "rating": 1,
+      "title": "闪退严重",
+      "content": "每次打开都闪退，根本用不了，更新后更严重了",
+      "author": "用户A",
+      "version": "2.0.1",
+      "vote_count": 15,
+      "full_text": "闪退严重 每次打开都闪退，根本用不了，更新后更严重了",
+      "language": "zh",
+      "content_length": 21,
+      "is_negative": true,
+      "is_positive": false
+    },
+    {
+      "review_id": "sample_002",
+      "rating": 1,
+      "title": "登录不了",
+      "content": "验证码收不到，登录一直失败，客服也不理人",
+      "author": "用户B",
+      "version": "2.0.1",
+      "vote_count": 8,
+      "full_text": "登录不了 验证码收不到，登录一直失败，客服也不理人",
+      "language": "zh",
+      "content_length": 20,
+      "is_negative": true,
+      "is_positive": false
+    },
+    {
+      "review_id": "sample_003",
+      "rating": 2,
+      "title": "广告太多",
+      "content": "打开全是广告，看个视频三分钟五个广告，烦死了",
+      "author": "用户C",
+      "version": "1.9.5",
+      "vote_count": 20,
+      "full_text": "广告太多 打开全是广告，看个视频三分钟五个广告，烦死了",
+      "language": "zh",
+      "content_length": 22,
+      "is_negative": true,
+      "is_positive": false
+    },
+    {
+      "review_id": "sample_004",
+      "rating": 5,
+      "title": "很好用",
+      "content": "界面简洁，功能齐全，非常喜欢，一直在用",
+      "author": "用户D",
+      "version": "2.0.1",
+      "vote_count": 5,
+      "full_text": "很好用 界面简洁，功能齐全，非常喜欢，一直在用",
+      "language": "zh",
+      "content_length": 19,
+      "is_negative": false,
+      "is_positive": true
+    },
+    {
+      "review_id": "sample_005",
+      "rating": 1,
+      "title": "又闪退了",
+      "content": "更新后频繁闪退，之前版本好好的，越更新越烂",
+      "author": "用户E",
+      "version": "2.0.1",
+      "vote_count": 12,
+      "full_text": "又闪退了 更新后频繁闪退，之前版本好好的，越更新越烂",
+      "language": "zh",
+      "content_length": 21,
+      "is_negative": true,
+      "is_positive": false
+    },
+    {
+      "review_id": "sample_006",
+      "rating": 2,
+      "title": "充值不到账",
+      "content": "充了会员钱扣了但是会员没到账，找客服没人回",
+      "author": "用户F",
+      "version": "1.9.5",
+      "vote_count": 6,
+      "full_text": "充值不到账 充了会员钱扣了但是会员没到账，找客服没人回",
+      "language": "zh",
+      "content_length": 21,
+      "is_negative": true,
+      "is_positive": false
+    },
+    {
+      "review_id": "sample_007",
+      "rating": 3,
+      "title": "还行",
+      "content": "功能还可以，就是有时候会卡，希望优化",
+      "author": "用户G",
+      "version": "2.0.1",
+      "vote_count": 2,
+      "full_text": "还行 功能还可以，就是有时候会卡，希望优化",
+      "language": "zh",
+      "content_length": 18,
+      "is_negative": false,
+      "is_positive": false
+    },
+    {
+      "review_id": "sample_008",
+      "rating": 1,
+      "title": "登录问题",
+      "content": "账号密码都对就是登不上，一直提示错误，什么垃圾软件",
+      "author": "用户H",
+      "version": "2.0.1",
+      "vote_count": 9,
+      "full_text": "登录问题 账号密码都对就是登不上，一直提示错误，什么垃圾软件",
+      "language": "zh",
+      "content_length": 25,
+      "is_negative": true,
+      "is_positive": false
+    },
+    {
+      "review_id": "sample_009",
+      "rating": 4,
+      "title": "不错",
+      "content": "整体体验不错，希望增加深色模式和夜间护眼",
+      "author": "用户I",
+      "version": "1.9.5",
+      "vote_count": 3,
+      "full_text": "不错 整体体验不错，希望增加深色模式和夜间护眼",
+      "language": "zh",
+      "content_length": 20,
+      "is_negative": false,
+      "is_positive": true
+    },
+    {
+      "review_id": "sample_010",
+      "rating": 2,
+      "title": "卡顿严重",
+      "content": "滑动的时候特别卡，手机都发烫了，优化一下吧",
+      "author": "用户J",
+      "version": "2.0.1",
+      "vote_count": 7,
+      "full_text": "卡顿严重 滑动的时候特别卡，手机都发烫了，优化一下吧",
+      "language": "zh",
+      "content_length": 21,
+      "is_negative": true,
+      "is_positive": false
+    },
+    {
+      "review_id": "sample_011",
+      "rating": 1,
+      "title": "客服态度差",
+      "content": "反馈问题客服一直机器人回复，根本解决不了问题",
+      "author": "用户K",
+      "version": "2.0.0",
+      "vote_count": 11,
+      "full_text": "客服态度差 反馈问题客服一直机器人回复，根本解决不了问题",
+      "language": "zh",
+      "content_length": 22,
+      "is_negative": true,
+      "is_positive": false
+    },
+    {
+      "review_id": "sample_012",
+      "rating": 5,
+      "title": "推荐",
+      "content": "用了两年了，一直很好，支持一下",
+      "author": "用户L",
+      "version": "2.0.1",
+      "vote_count": 4,
+      "full_text": "推荐 用了两年了，一直很好，支持一下",
+      "language": "zh",
+      "content_length": 15,
+      "is_negative": false,
+      "is_positive": true
+    }
+  ],
+  "clean_stats": {
+    "original_count": 12,
+    "removed_empty": 0,
+    "removed_duplicate": 0,
+    "removed_too_short": 0,
+    "final_count": 12
+  },
+  "distribution": {
+    "total": 12,
+    "avg_rating": 2.33,
+    "rating_distribution": {
+      "1": 5,
+      "2": 3,
+      "3": 1,
+      "4": 1,
+      "5": 2
+    },
+    "version_distribution": {
+      "2.0.1": 8,
+      "1.9.5": 3,
+      "2.0.0": 1
+    },
+    "language_distribution": {
+      "zh": 12
+    },
+    "sentiment": {
+      "positive": 3,
+      "neutral": 1,
+      "negative": 8,
+      "positive_rate": 25.0,
+      "negative_rate": 66.7
+    }
+  },
+  "keywords": {
+    "一直": 5,
+    "闪退": 4,
+    "客服": 4,
+    "严重": 3,
+    "不了": 3,
+    "更新": 3,
+    "登录": 3,
+    "广告": 3,
+    "问题": 3,
+    "打开": 2,
+    "根本": 2,
+    "新后": 2,
+    "不到": 2,
+    "很好": 2,
+    "功能": 2,
+    "到账": 2,
+    "会员": 2,
+    "人回": 2,
+    "就是": 2,
+    "时候": 2
+  },
+  "topics": [
+    {
+      "name": "应用闪退问题",
+      "description": "用户反映应用频繁闪退，尤其在更新后问题加剧，严重影响正常使用。",
+      "review_ids": [
+        "sample_001",
+        "sample_005"
+      ],
+      "sample_count": 2,
+      "severity": "high",
+      "confidence": 0.9,
+      "contradictions": "无矛盾反馈，但用户提到更新前版本正常，暗示更新引入回归问题。",
+      "evidence_note": "证据充分，两条评论均明确提及闪退，且与更新相关。",
+      "actual_sample_count": 2
+    },
+    {
+      "name": "登录与验证码问题",
+      "description": "用户无法正常登录，包括验证码收不到、账号密码正确但提示错误等，导致无法使用应用。",
+      "review_ids": [
+        "sample_002",
+        "sample_008"
+      ],
+      "sample_count": 2,
+      "severity": "high",
+      "confidence": 0.85,
+      "contradictions": "无直接矛盾，但登录失败原因可能多样，需进一步确认。",
+      "evidence_note": "证据较充分，两条评论均涉及登录障碍，但具体原因可能不同。",
+      "actual_sample_count": 2
+    },
+    {
+      "name": "客服响应与解决能力不足",
+      "description": "用户反馈客服不回应或仅机器人回复，无法有效解决问题，尤其在充值、登录等关键问题上。",
+      "review_ids": [
+        "sample_002",
+        "sample_006",
+        "sample_011"
+      ],
+      "sample_count": 3,
+      "severity": "medium",
+      "confidence": 0.8,
+      "contradictions": "无矛盾反馈，但部分用户可能未尝试客服，证据覆盖有限。",
+      "evidence_note": "证据中等，三条评论均提及客服问题，但样本量较小。",
+      "actual_sample_count": 3
+    },
+    {
+      "name": "广告过多影响体验",
+      "description": "用户抱怨广告数量过多，干扰正常使用，如观看视频时频繁插入广告。",
+      "review_ids": [
+        "sample_003"
+      ],
+      "sample_count": 1,
+      "severity": "medium",
+      "confidence": 0.6,
+      "contradictions": "无矛盾反馈，但仅一条评论，证据不足。",
+      "evidence_note": "证据不足，仅单条评论，需更多数据支持。",
+      "actual_sample_count": 1
+    },
+    {
+      "name": "充值不到账问题",
+      "description": "用户付费后会员权益未及时到账，且客服无响应，造成经济损失和信任危机。",
+      "review_ids": [
+        "sample_006"
+      ],
+      "sample_count": 1,
+      "severity": "high",
+      "confidence": 0.7,
+      "contradictions": "无矛盾反馈，但仅一条评论，且可能与客服问题关联。",
+      "evidence_note": "证据不足，单条评论，但涉及资金问题，需重视。",
+      "actual_sample_count": 1
+    },
+    {
+      "name": "性能卡顿与发热",
+      "description": "用户反映应用操作卡顿，设备发热，影响使用流畅度。",
+      "review_ids": [
+        "sample_010"
+      ],
+      "sample_count": 1,
+      "severity": "medium",
+      "confidence": 0.6,
+      "contradictions": "无矛盾反馈，但仅一条评论，证据不足。",
+      "evidence_note": "证据不足，单条评论，需更多反馈。",
+      "actual_sample_count": 1
+    }
+  ],
+  "analysis_summary": "整体来看，用户反馈主要集中在应用稳定性（闪退）、登录障碍、客服响应不足、广告过多、充值不到账和性能问题。其中闪退和登录问题最为严重，直接影响用户使用，且更新后闪退加剧，可能源于版本回归。客服问题加剧了用户不满，尤其在充值等资金相关问题上。广告和性能问题影响体验，但证据较少。建议优先解决闪退和登录问题，加强客服支持，并优化广告策略和性能。",
+  "analysis_method": "llm_driven",
+  "evidence_report": [
+    {
+      "topic": "应用闪退问题",
+      "sample_count": 2,
+      "rating_range": [
+        1,
+        1
+      ],
+      "avg_rating": 1.0,
+      "has_contradiction": false,
+      "contradiction_detail": "",
+      "evidence_sufficiency": "insufficient",
+      "confidence": 0.9
+    },
+    {
+      "topic": "登录与验证码问题",
+      "sample_count": 2,
+      "rating_range": [
+        1,
+        1
+      ],
+      "avg_rating": 1.0,
+      "has_contradiction": false,
+      "contradiction_detail": "",
+      "evidence_sufficiency": "insufficient",
+      "confidence": 0.85
+    },
+    {
+      "topic": "客服响应与解决能力不足",
+      "sample_count": 3,
+      "rating_range": [
+        1,
+        2
+      ],
+      "avg_rating": 1.33,
+      "has_contradiction": false,
+      "contradiction_detail": "",
+      "evidence_sufficiency": "limited",
+      "confidence": 0.8
+    },
+    {
+      "topic": "广告过多影响体验",
+      "sample_count": 1,
+      "rating_range": [
+        2,
+        2
+      ],
+      "avg_rating": 2.0,
+      "has_contradiction": false,
+      "contradiction_detail": "",
+      "evidence_sufficiency": "insufficient",
+      "confidence": 0.6
+    },
+    {
+      "topic": "充值不到账问题",
+      "sample_count": 1,
+      "rating_range": [
+        2,
+        2
+      ],
+      "avg_rating": 2.0,
+      "has_contradiction": false,
+      "contradiction_detail": "",
+      "evidence_sufficiency": "insufficient",
+      "confidence": 0.7
+    },
+    {
+      "topic": "性能卡顿与发热",
+      "sample_count": 1,
+      "rating_range": [
+        2,
+        2
+      ],
+      "avg_rating": 2.0,
+      "has_contradiction": false,
+      "contradiction_detail": "",
+      "evidence_sufficiency": "insufficient",
+      "confidence": 0.6
+    }
+  ],
+  "prd": {
+    "prd_title": "导入数据集应用用户反馈问题修复与优化PRD",
+    "overview": "本PRD基于用户评论分析，针对应用闪退、登录验证码、客服响应、广告过多、充值不到账和性能卡顿六大问题提出解决方案，旨在提升用户体验和信任度。",
+    "background": "近期用户反馈集中反映了应用在稳定性、功能可用性、客户服务及性能方面的严重问题，尤其是闪退和登录问题导致用户无法正常使用，充值不到账引发信任危机。这些问题已严重影响用户留存和口碑，需优先解决。",
+    "requirements": [
+      {
+        "id": "REQ-001",
+        "title": "修复应用闪退问题",
+        "user_story": "作为用户，我希望应用在更新后能稳定运行，以便正常使用所有功能。",
+        "description": "分析闪退原因，可能涉及兼容性、内存泄漏或代码错误。需进行崩溃日志收集、修复已知bug，并优化启动流程。",
+        "priority": "P0",
+        "version": "V1.0",
+        "acceptance_criteria": [
+          "应用在主流设备上连续运行30分钟无闪退",
+          "崩溃率降低至0.5%以下",
+          "更新后无新增闪退报告"
+        ],
+        "source_review_ids": [
+          "sample_001",
+          "sample_005"
+        ],
+        "evidence_level": "insufficient",
+        "is_assumption": false,
+        "related_topic": "应用闪退问题"
+      },
+      {
+        "id": "REQ-002",
+        "title": "修复登录与验证码问题",
+        "user_story": "作为用户，我希望能够顺利登录，以便使用个人账户和享受会员服务。",
+        "description": "解决验证码发送失败、延迟、账号密码验证错误等问题。需检查短信服务、验证码生成逻辑和账号系统。",
+        "priority": "P0",
+        "version": "V1.0",
+        "acceptance_criteria": [
+          "验证码在60秒内发送成功率≥99%",
+          "正确账号密码登录成功率100%",
+          "错误提示信息准确明确"
+        ],
+        "source_review_ids": [
+          "sample_002",
+          "sample_008"
+        ],
+        "evidence_level": "insufficient",
+        "is_assumption": false,
+        "related_topic": "登录与验证码问题"
+      },
+      {
+        "id": "REQ-003",
+        "title": "提升客服响应与解决能力",
+        "user_story": "作为用户，我希望在遇到问题时能获得及时有效的客服支持，以便快速解决问题。",
+        "description": "优化客服系统，增加人工客服数量，提供更智能的机器人应答，并确保关键问题（如充值）优先处理。",
+        "priority": "P1",
+        "version": "V1.1",
+        "acceptance_criteria": [
+          "人工客服响应时间小于5分钟",
+          "用户满意度评分≥4.5/5",
+          "充值问题解决率≥95%"
+        ],
+        "source_review_ids": [
+          "sample_002",
+          "sample_006",
+          "sample_011"
+        ],
+        "evidence_level": "limited",
+        "is_assumption": false,
+        "related_topic": "客服响应与解决能力不足"
+      },
+      {
+        "id": "REQ-004",
+        "title": "优化广告展示策略",
+        "user_story": "作为用户，我希望广告数量适中且不干扰使用，以便享受流畅的观看体验。",
+        "description": "减少广告频率，优化广告插入时机，提供去广告选项（如会员免广告）。",
+        "priority": "P2",
+        "version": "V1.1",
+        "acceptance_criteria": [
+          "广告频率降低30%",
+          "用户对广告的投诉减少50%",
+          "提供广告关闭或跳过功能"
+        ],
+        "source_review_ids": [
+          "sample_003"
+        ],
+        "evidence_level": "insufficient",
+        "is_assumption": true,
+        "related_topic": "广告过多影响体验"
+      },
+      {
+        "id": "REQ-005",
+        "title": "解决充值不到账问题",
+        "user_story": "作为用户，我希望充值后会员权益能立即到账，以便享受会员服务。",
+        "description": "排查支付回调、订单处理流程，确保支付成功后自动发放权益，并增加异常处理机制。",
+        "priority": "P0",
+        "version": "V1.0",
+        "acceptance_criteria": [
+          "支付成功后权益到账时间小于1分钟",
+          "充值失败自动退款或补发",
+          "相关投诉减少80%"
+        ],
+        "source_review_ids": [
+          "sample_006"
+        ],
+        "evidence_level": "insufficient",
+        "is_assumption": false,
+        "related_topic": "充值不到账问题"
+      },
+      {
+        "id": "REQ-006",
+        "title": "优化性能减少卡顿发热",
+        "user_story": "作为用户，我希望应用操作流畅且设备不发热，以便获得舒适的使用体验。",
+        "description": "进行性能优化，如减少内存占用、优化渲染逻辑、降低CPU使用率。",
+        "priority": "P2",
+        "version": "V1.1",
+        "acceptance_criteria": [
+          "应用启动时间减少20%",
+          "帧率稳定在60fps",
+          "设备温度上升不超过5℃"
+        ],
+        "source_review_ids": [
+          "sample_010"
+        ],
+        "evidence_level": "insufficient",
+        "is_assumption": true,
+        "related_topic": "性能卡顿与发热"
+      }
+    ],
+    "version_plan": {
+      "V1.0": [
+        "REQ-001",
+        "REQ-002",
+        "REQ-005"
+      ],
+      "V1.1": [
+        "REQ-003",
+        "REQ-004",
+        "REQ-006"
+      ],
+      "V2.0": []
+    },
+    "risk_and_notes": "部分问题证据不足，需进一步收集用户反馈；闪退和登录问题可能涉及底层架构，修复周期较长；客服优化需投入人力成本；广告策略调整可能影响收入，需平衡商业利益。",
+    "generation_method": "llm_driven",
+    "model_used": "deepseek-chat",
+    "total_requirements": 6
+  },
+  "test_cases": {
+    "test_cases": [
+      {
+        "id": "TC-001",
+        "title": "验证应用在主流设备上连续运行30分钟无闪退",
+        "requirement_id": "REQ-001",
+        "source_review_ids": [
+          "sample_001",
+          "sample_005"
+        ],
+        "type": "功能测试",
+        "priority": "高",
+        "preconditions": "测试设备为最新版本的主流设备（如iPhone 15, Samsung Galaxy S24），已安装最新版本的应用，网络连接正常。",
+        "steps": [
+          "启动应用",
+          "正常使用应用的各种功能（浏览、播放、设置等）",
+          "持续操作30分钟",
+          "观察应用是否闪退"
+        ],
+        "expected_result": "应用在30分钟内无闪退，所有功能正常。",
+        "verifies_issue": "用户反馈应用更新后闪退，影响正常使用。"
+      },
+      {
+        "id": "TC-002",
+        "title": "验证崩溃日志收集功能",
+        "requirement_id": "REQ-001",
+        "source_review_ids": [
+          "sample_001",
+          "sample_005"
+        ],
+        "type": "功能测试",
+        "priority": "中",
+        "preconditions": "应用已集成崩溃日志收集SDK，测试设备可访问网络。",
+        "steps": [
+          "在测试设备上触发一个已知的崩溃场景（如特定操作）",
+          "应用崩溃后重新启动",
+          "检查崩溃日志是否被记录并上传到服务器"
+        ],
+        "expected_result": "崩溃日志被成功收集并上传，服务器可查询到相关日志。",
+        "verifies_issue": "用户反馈闪退，但缺乏崩溃日志导致难以定位问题。"
+      },
+      {
+        "id": "TC-003",
+        "title": "验证修复后无新增闪退报告",
+        "requirement_id": "REQ-001",
+        "source_review_ids": [
+          "sample_001",
+          "sample_005"
+        ],
+        "type": "回归测试",
+        "priority": "高",
+        "preconditions": "应用已修复已知闪退问题，并发布新版本。",
+        "steps": [
+          "安装新版本应用",
+          "执行之前导致闪退的操作",
+          "检查是否还有闪退发生",
+          "查看崩溃监控平台是否有新增闪退报告"
+        ],
+        "expected_result": "无闪退发生，崩溃监控平台无新增闪退报告。",
+        "verifies_issue": "用户反馈闪退问题，需确保修复有效且无新问题。"
+      },
+      {
+        "id": "TC-004",
+        "title": "验证验证码在60秒内发送成功率≥99%",
+        "requirement_id": "REQ-002",
+        "source_review_ids": [
+          "sample_002",
+          "sample_008"
+        ],
+        "type": "功能测试",
+        "priority": "高",
+        "preconditions": "测试环境网络正常，短信服务可用，测试手机号可接收短信。",
+        "steps": [
+          "在登录页面点击获取验证码",
+          "记录发送请求时间",
+          "等待短信到达",
+          "记录短信到达时间",
+          "重复执行100次，统计成功率"
+        ],
+        "expected_result": "验证码在60秒内发送成功率≥99%，即至少99次成功。",
+        "verifies_issue": "用户反馈验证码发送失败或延迟。"
+      },
+      {
+        "id": "TC-005",
+        "title": "验证正确账号密码登录成功率100%",
+        "requirement_id": "REQ-002",
+        "source_review_ids": [
+          "sample_002",
+          "sample_008"
+        ],
+        "type": "功能测试",
+        "priority": "高",
+        "preconditions": "已注册有效账号，密码正确。",
+        "steps": [
+          "打开登录页面",
+          "输入正确的账号和密码",
+          "点击登录按钮",
+          "观察登录结果"
+        ],
+        "expected_result": "登录成功，进入主界面。",
+        "verifies_issue": "用户反馈登录时账号密码验证错误。"
+      },
+      {
+        "id": "TC-006",
+        "title": "验证错误提示信息准确明确",
+        "requirement_id": "REQ-002",
+        "source_review_ids": [
+          "sample_002",
+          "sample_008"
+        ],
+        "type": "异常测试",
+        "priority": "中",
+        "preconditions": "已注册账号，密码错误。",
+        "steps": [
+          "打开登录页面",
+          "输入正确的账号和错误的密码",
+          "点击登录按钮",
+          "观察错误提示信息"
+        ],
+        "expected_result": "错误提示明确，如“密码错误，请重新输入”，不出现模糊提示。",
+        "verifies_issue": "用户反馈登录时错误提示不明确。"
+      },
+      {
+        "id": "TC-007",
+        "title": "验证人工客服响应时间小于5分钟",
+        "requirement_id": "REQ-003",
+        "source_review_ids": [
+          "sample_002",
+          "sample_006",
+          "sample_011"
+        ],
+        "type": "功能测试",
+        "priority": "高",
+        "preconditions": "客服系统在线，有可用人工客服。",
+        "steps": [
+          "在应用内发起客服会话",
+          "选择人工客服",
+          "记录发起时间",
+          "等待客服响应",
+          "记录响应时间"
+        ],
+        "expected_result": "人工客服在5分钟内响应。",
+        "verifies_issue": "用户反馈客服响应慢。"
+      },
+      {
+        "id": "TC-008",
+        "title": "验证充值问题解决率≥95%",
+        "requirement_id": "REQ-003",
+        "source_review_ids": [
+          "sample_006",
+          "sample_011"
+        ],
+        "type": "功能测试",
+        "priority": "高",
+        "preconditions": "客服系统可访问，有充值问题工单。",
+        "steps": [
+          "模拟用户提交充值问题",
+          "客服处理该问题",
+          "记录解决结果",
+          "统计100个充值问题的解决率"
+        ],
+        "expected_result": "充值问题解决率≥95%。",
+        "verifies_issue": "用户反馈充值问题得不到解决。"
+      },
+      {
+        "id": "TC-009",
+        "title": "验证用户满意度评分≥4.5/5",
+        "requirement_id": "REQ-003",
+        "source_review_ids": [
+          "sample_002",
+          "sample_006",
+          "sample_011"
+        ],
+        "type": "功能测试",
+        "priority": "中",
+        "preconditions": "客服系统有满意度评价功能。",
+        "steps": [
+          "用户与客服交互后",
+          "邀请用户评价满意度",
+          "收集评价数据",
+          "计算平均分"
+        ],
+        "expected_result": "平均满意度≥4.5分。",
+        "verifies_issue": "用户对客服支持不满意。"
+      },
+      {
+        "id": "TC-010",
+        "title": "验证广告频率降低30%",
+        "requirement_id": "REQ-004",
+        "source_review_ids": [
+          "sample_003"
+        ],
+        "type": "功能测试",
+        "priority": "中",
+        "preconditions": "应用已更新至优化广告策略的版本。",
+        "steps": [
+          "使用应用观看视频或浏览内容",
+          "记录单位时间内广告出现次数",
+          "与旧版本对比，计算降低比例"
+        ],
+        "expected_result": "广告频率降低30%以上。",
+        "verifies_issue": "用户反馈广告过多影响体验。"
+      },
+      {
+        "id": "TC-011",
+        "title": "验证提供广告关闭或跳过功能",
+        "requirement_id": "REQ-004",
+        "source_review_ids": [
+          "sample_003"
+        ],
+        "type": "功能测试",
+        "priority": "中",
+        "preconditions": "应用已更新，广告播放时显示关闭或跳过按钮。",
+        "steps": [
+          "播放广告",
+          "观察是否有关闭或跳过按钮",
+          "点击该按钮",
+          "确认广告是否被关闭或跳过"
+        ],
+        "expected_result": "广告可被关闭或跳过，且不影响正常使用。",
+        "verifies_issue": "用户反馈广告无法关闭，强制观看。"
+      },
+      {
+        "id": "TC-012",
+        "title": "验证用户对广告的投诉减少50%",
+        "requirement_id": "REQ-004",
+        "source_review_ids": [
+          "sample_003"
+        ],
+        "type": "回归测试",
+        "priority": "中",
+        "preconditions": "新版本已上线，收集用户投诉数据。",
+        "steps": [
+          "统计新版本上线后一周内的广告投诉数量",
+          "与旧版本同期投诉数量对比",
+          "计算减少比例"
+        ],
+        "expected_result": "广告投诉减少50%以上。",
+        "verifies_issue": "用户反馈广告过多，投诉频繁。"
+      },
+      {
+        "id": "TC-013",
+        "title": "验证支付成功后权益到账时间小于1分钟",
+        "requirement_id": "REQ-005",
+        "source_review_ids": [
+          "sample_006"
+        ],
+        "type": "功能测试",
+        "priority": "高",
+        "preconditions": "测试账号，支付环境正常，已选择支付方式。",
+        "steps": [
+          "在应用内发起充值",
+          "完成支付",
+          "记录支付成功时间",
+          "检查会员权益是否到账",
+          "记录到账时间"
+        ],
+        "expected_result": "权益在支付成功后1分钟内到账。",
+        "verifies_issue": "用户反馈充值后权益未到账。"
+      },
+      {
+        "id": "TC-014",
+        "title": "验证充值失败自动退款或补发",
+        "requirement_id": "REQ-005",
+        "source_review_ids": [
+          "sample_006"
+        ],
+        "type": "异常测试",
+        "priority": "高",
+        "preconditions": "模拟支付回调异常或订单处理失败。",
+        "steps": [
+          "发起充值并支付",
+          "模拟支付回调失败",
+          "检查系统是否自动触发退款或补发机制",
+          "确认用户权益或退款状态"
+        ],
+        "expected_result": "系统自动退款或补发权益，用户无损失。",
+        "verifies_issue": "用户反馈充值后权益未到账，且无处理。"
+      },
+      {
+        "id": "TC-015",
+        "title": "验证相关投诉减少80%",
+        "requirement_id": "REQ-005",
+        "source_review_ids": [
+          "sample_006"
+        ],
+        "type": "回归测试",
+        "priority": "中",
+        "preconditions": "新版本已上线，收集投诉数据。",
+        "steps": [
+          "统计新版本上线后一周内充值不到账投诉数量",
+          "与旧版本同期投诉数量对比",
+          "计算减少比例"
+        ],
+        "expected_result": "充值不到账投诉减少80%以上。",
+        "verifies_issue": "用户反馈充值不到账问题频发。"
+      },
+      {
+        "id": "TC-016",
+        "title": "验证应用启动时间减少20%",
+        "requirement_id": "REQ-006",
+        "source_review_ids": [
+          "sample_010"
+        ],
+        "type": "性能测试",
+        "priority": "中",
+        "preconditions": "测试设备性能中等，应用已更新至优化版本。",
+        "steps": [
+          "冷启动应用",
+          "记录从点击图标到进入主界面的时间",
+          "重复多次取平均值",
+          "与旧版本启动时间对比"
+        ],
+        "expected_result": "启动时间减少20%以上。",
+        "verifies_issue": "用户反馈应用启动慢。"
+      },
+      {
+        "id": "TC-017",
+        "title": "验证帧率稳定在60fps",
+        "requirement_id": "REQ-006",
+        "source_review_ids": [
+          "sample_010"
+        ],
+        "type": "性能测试",
+        "priority": "中",
+        "preconditions": "测试设备支持高帧率，应用已优化。",
+        "steps": [
+          "打开应用并进入主要界面",
+          "使用性能监测工具记录帧率",
+          "进行滑动、切换等操作",
+          "观察帧率波动"
+        ],
+        "expected_result": "帧率稳定在60fps，无明显掉帧。",
+        "verifies_issue": "用户反馈操作卡顿。"
+      },
+      {
+        "id": "TC-018",
+        "title": "验证设备温度上升不超过5℃",
+        "requirement_id": "REQ-006",
+        "source_review_ids": [
+          "sample_010"
+        ],
+        "type": "性能测试",
+        "priority": "中",
+        "preconditions": "测试设备温度正常，应用已优化。",
+        "steps": [
+          "记录设备初始温度",
+          "连续使用应用30分钟（如播放视频、游戏）",
+          "记录使用后温度",
+          "计算温度差"
+        ],
+        "expected_result": "温度上升不超过5℃。",
+        "verifies_issue": "用户反馈应用发热严重。"
+      }
+    ],
+    "total_count": 18,
+    "generation_method": "llm_driven",
+    "model_used": "deepseek-chat"
+  },
+  "traceability": {
+    "total_checks": 30,
+    "passed": 30,
+    "failed": 0,
+    "warnings": 0,
+    "details": [
+      {
+        "check": "主题「应用闪退问题」关联评论",
+        "status": "pass",
+        "linked_count": 2
+      },
+      {
+        "check": "主题「登录与验证码问题」关联评论",
+        "status": "pass",
+        "linked_count": 2
+      },
+      {
+        "check": "主题「客服响应与解决能力不足」关联评论",
+        "status": "pass",
+        "linked_count": 3
+      },
+      {
+        "check": "主题「广告过多影响体验」关联评论",
+        "status": "pass",
+        "linked_count": 1
+      },
+      {
+        "check": "主题「充值不到账问题」关联评论",
+        "status": "pass",
+        "linked_count": 1
+      },
+      {
+        "check": "主题「性能卡顿与发热」关联评论",
+        "status": "pass",
+        "linked_count": 1
+      },
+      {
+        "check": "需求「REQ-001」来源评论",
+        "status": "pass",
+        "linked_count": 2
+      },
+      {
+        "check": "需求「REQ-002」来源评论",
+        "status": "pass",
+        "linked_count": 2
+      },
+      {
+        "check": "需求「REQ-003」来源评论",
+        "status": "pass",
+        "linked_count": 3
+      },
+      {
+        "check": "需求「REQ-004」来源评论",
+        "status": "pass",
+        "linked_count": 1
+      },
+      {
+        "check": "需求「REQ-005」来源评论",
+        "status": "pass",
+        "linked_count": 1
+      },
+      {
+        "check": "需求「REQ-006」来源评论",
+        "status": "pass",
+        "linked_count": 1
+      },
+      {
+        "check": "测试用例「TC-001」追溯链",
+        "status": "pass"
+      },
+      {
+        "check": "测试用例「TC-002」追溯链",
+        "status": "pass"
+      },
+      {
+        "check": "测试用例「TC-003」追溯链",
+        "status": "pass"
+      },
+      {
+        "check": "测试用例「TC-004」追溯链",
+        "status": "pass"
+      },
+      {
+        "check": "测试用例「TC-005」追溯链",
+        "status": "pass"
+      },
+      {
+        "check": "测试用例「TC-006」追溯链",
+        "status": "pass"
+      },
+      {
+        "check": "测试用例「TC-007」追溯链",
+        "status": "pass"
+      },
+      {
+        "check": "测试用例「TC-008」追溯链",
+        "status": "pass"
+      },
+      {
+        "check": "测试用例「TC-009」追溯链",
+        "status": "pass"
+      },
+      {
+        "check": "测试用例「TC-010」追溯链",
+        "status": "pass"
+      },
+      {
+        "check": "测试用例「TC-011」追溯链",
+        "status": "pass"
+      },
+      {
+        "check": "测试用例「TC-012」追溯链",
+        "status": "pass"
+      },
+      {
+        "check": "测试用例「TC-013」追溯链",
+        "status": "pass"
+      },
+      {
+        "check": "测试用例「TC-014」追溯链",
+        "status": "pass"
+      },
+      {
+        "check": "测试用例「TC-015」追溯链",
+        "status": "pass"
+      },
+      {
+        "check": "测试用例「TC-016」追溯链",
+        "status": "pass"
+      },
+      {
+        "check": "测试用例「TC-017」追溯链",
+        "status": "pass"
+      },
+      {
+        "check": "测试用例「TC-018」追溯链",
+        "status": "pass"
+      }
+    ],
+    "traceability_matrix": [
+      {
+        "requirement_id": "REQ-001",
+        "requirement_title": "修复应用闪退问题",
+        "related_topic": "应用闪退问题",
+        "source_review_count": 2,
+        "source_review_ids": [
+          "sample_001",
+          "sample_005"
+        ],
+        "test_case_count": 3,
+        "test_case_ids": [
+          "TC-001",
+          "TC-002",
+          "TC-003"
+        ],
+        "chain_complete": true
+      },
+      {
+        "requirement_id": "REQ-002",
+        "requirement_title": "修复登录与验证码问题",
+        "related_topic": "登录与验证码问题",
+        "source_review_count": 2,
+        "source_review_ids": [
+          "sample_002",
+          "sample_008"
+        ],
+        "test_case_count": 3,
+        "test_case_ids": [
+          "TC-004",
+          "TC-005",
+          "TC-006"
+        ],
+        "chain_complete": true
+      },
+      {
+        "requirement_id": "REQ-003",
+        "requirement_title": "提升客服响应与解决能力",
+        "related_topic": "客服响应与解决能力不足",
+        "source_review_count": 3,
+        "source_review_ids": [
+          "sample_002",
+          "sample_006",
+          "sample_011"
+        ],
+        "test_case_count": 3,
+        "test_case_ids": [
+          "TC-007",
+          "TC-008",
+          "TC-009"
+        ],
+        "chain_complete": true
+      },
+      {
+        "requirement_id": "REQ-004",
+        "requirement_title": "优化广告展示策略",
+        "related_topic": "广告过多影响体验",
+        "source_review_count": 1,
+        "source_review_ids": [
+          "sample_003"
+        ],
+        "test_case_count": 3,
+        "test_case_ids": [
+          "TC-010",
+          "TC-011",
+          "TC-012"
+        ],
+        "chain_complete": true
+      },
+      {
+        "requirement_id": "REQ-005",
+        "requirement_title": "解决充值不到账问题",
+        "related_topic": "充值不到账问题",
+        "source_review_count": 1,
+        "source_review_ids": [
+          "sample_006"
+        ],
+        "test_case_count": 3,
+        "test_case_ids": [
+          "TC-013",
+          "TC-014",
+          "TC-015"
+        ],
+        "chain_complete": true
+      },
+      {
+        "requirement_id": "REQ-006",
+        "requirement_title": "优化性能减少卡顿发热",
+        "related_topic": "性能卡顿与发热",
+        "source_review_count": 1,
+        "source_review_ids": [
+          "sample_010"
+        ],
+        "test_case_count": 3,
+        "test_case_ids": [
+          "TC-016",
+          "TC-017",
+          "TC-018"
+        ],
+        "chain_complete": true
+      }
+    ],
+    "conclusion": "通过",
+    "conclusion_detail": "所有追溯链完整，无无根据的结论"
+  }
+}
