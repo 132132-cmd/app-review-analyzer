@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Store 评论智能分析系统</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>App Store 评论智能分析系统</h1>
+            <p class="subtitle">从用户评论到产品需求的全链路 AI 分析平台</p>
+            <div class="status-bar">
+                <span class="status-item" id="llm-status">
+                    <span class="dot {% if has_llm %}green{% else %}yellow{% endif %}"></span>
+                    {% if has_llm %}AI 模型已就绪{% else %}AI 模型未配置（降级模式）{% endif %}
+                </span>
+            </div>
+        </header>
+
+        <!-- 输入区域 -->
+        <section class="card" id="input-section">
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="search">搜索应用</button>
+                <button class="tab-btn" data-tab="import">导入数据</button>
+            </div>
+
+            <!-- 搜索应用 -->
+            <div class="tab-content active" id="tab-search">
+                <div class="search-box">
+                    <input type="text" id="search-input" placeholder="输入应用名称，如：微信、抖音、小红书...">
+                    <select id="country-select">
+                        <option value="cn">中国区</option>
+                        <option value="us">美国区</option>
+                        <option value="jp">日本区</option>
+                    </select>
+                    <button onclick="searchApp()" class="btn btn-primary">搜索</button>
+                </div>
+                <div id="search-results" class="search-results"></div>
+            </div>
+
+            <!-- 导入数据 -->
+            <div class="tab-content" id="tab-import">
+                <div class="import-box">
+                    <p>支持导入 JSON 或 CSV 格式的评论数据（用于面试官提供的外部数据集）</p>
+                    <input type="file" id="import-file" accept=".json,.csv">
+                    <button onclick="importReviews()" class="btn btn-primary">导入并预览</button>
+                </div>
+                <div id="import-preview"></div>
+            </div>
+        </section>
+
+        <!-- 进度区域 -->
+        <section class="card hidden" id="progress-section">
+            <h2>分析进度</h2>
+            <div class="progress-stage">
+                <span id="current-stage">准备中...</span>
+            </div>
+            <div class="progress-log" id="progress-log"></div>
+        </section>
+
+        <!-- 结果区域 -->
+        <section class="hidden" id="results-section">
+            <!-- 概览 -->
+            <div class="card">
+                <h2>分析概览</h2>
+                <div class="overview-grid" id="overview-grid"></div>
+            </div>
+
+            <!-- 评分分布 -->
+            <div class="card">
+                <h2>评论数据统计</h2>
+                <div id="stats-content"></div>
+            </div>
+
+            <!-- 主题分析 -->
+            <div class="card">
+                <h2>AI 问题主题分析</h2>
+                <p class="method-note" id="analysis-method"></p>
+                <div id="topics-content"></div>
+            </div>
+
+            <!-- PRD -->
+            <div class="card">
+                <h2>产品需求文档（PRD）</h2>
+                <div id="prd-content"></div>
+            </div>
+
+            <!-- 测试用例 -->
+            <div class="card">
+                <h2>测试用例</h2>
+                <div id="testcases-content"></div>
+            </div>
+
+            <!-- 可追溯性 -->
+            <div class="card">
+                <h2>可追溯性验证</h2>
+                <div id="traceability-content"></div>
+            </div>
+
+            <!-- 评论列表 -->
+            <div class="card">
+                <h2>评论详情</h2>
+                <div id="reviews-content"></div>
+            </div>
+        </section>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
